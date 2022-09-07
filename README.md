@@ -74,6 +74,11 @@ Query Parameters:
   Request: `/lcm?nums=[7]`
   Response: `{"Error":"At least two natural numbers must be provided to compute the LCM."}`
 
+Install requirements:
+(Run in the Challenge_2 directory)
+
+    npm install
+
 To run:
 
     npm run start
