@@ -1,5 +1,5 @@
 module.exports.isNaturalNum = function (n) {
-  return n >= 0 && Math.floor(n) === +n;
+  return n > 0 && Math.floor(n) === +n;
 };
 
 module.exports.lowestCommonMultiple = function (arr) {
